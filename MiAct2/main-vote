@@ -1,0 +1,29 @@
+package package1;
+
+
+import package2.Vote2;
+
+import java.util.Scanner;
+
+public class vote1 {
+
+
+    public static void main(String[] args) {
+        Scanner input=new Scanner(System.in);
+       String Name;
+       int age ;
+       int ID;
+        System.out.print("Input Full Name:");
+         Name=input.nextLine();
+        System.out.print("Input Age:");
+        age=input.nextInt();
+        System.out.print("Input Voters ID:");
+         ID=input.nextInt();
+
+      Vote2 objects=new Vote2(Name,age,ID);
+        System.out.println(objects.toString());
+
+    }
+
+
+}
