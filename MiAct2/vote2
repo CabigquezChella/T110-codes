@@ -1,0 +1,28 @@
+package package2;
+
+
+public class Vote2 {
+ public String Name;
+public int age;
+ public int ID;
+
+
+ public Vote2(String newName, int newAge, int newId) {
+  Name = newName;
+  age=newAge;
+  ID = newId;
+
+  if(age >= 18){
+   System.out.println("You are Eligible for Voting!,Have a Great Day!");
+
+  }else{
+   System.out.println("You are not Eligible for Voting.");
+  }
+ }
+ 
+ public String toString(){
+  String result="";
+  result=("\nName:"+Name+"\nAge:"+age+"\nVoters ID:"+ID);
+  return result;
+ }
+}
