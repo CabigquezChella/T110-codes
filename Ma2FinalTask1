@@ -1,0 +1,54 @@
+package pakage1;
+import javax.naming.Name;
+import java.util.*;
+public class Main {
+
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        subclass object = new subclass();
+
+        System.out.println("[Input Personal Data]");
+        System.out.print("Full Name:");
+        object.setName(sc.nextLine());
+
+        System.out.print("Phone Number:");
+        object.setPhone(sc.nextLine());
+
+        System.out.print("Address:");
+        object.setAddress(sc.nextLine());
+
+        System.out.print("Age:");
+        object.setAge(sc.nextInt());
+
+        System.out.println("[Input Grades]");
+        System.out.print("Math:");
+        object.setMath(sc.nextInt());
+
+        System.out.print("Science:");
+        object.setSci(sc.nextInt());
+
+        System.out.print("English:");
+        object.setEng(sc.nextInt());
+
+        System.out.print("History:");
+        object.setHistory(sc.nextInt());
+
+        System.out.print("PE:");
+        object.setPE(sc.nextInt());
+        sc.close();
+
+        System.out.println("\t\t--Student Data--");
+        System.out.println("\tName:" + object.getName());
+        System.out.println("\tPhone Number" + object.getPhone());
+        System.out.println("\tAddress:" + object.getAddress());
+        System.out.println("\tAge:" + object.getAge());
+
+        System.out.println("\t\t--Student Grades--");
+        System.out.println("\tMath:"+object.getMath());
+        System.out.println("\tScience:"+object.getSci());
+        System.out.println("\tEnglish:"+object.getEng());
+        System.out.println("\tHistory:"+object.getHistory());
+        System.out.println("\tPE:"+object.getPE());
+    }
+
+}
