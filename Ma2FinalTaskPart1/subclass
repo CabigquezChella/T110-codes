@@ -1,0 +1,80 @@
+package pakage1;
+
+public class subclass {
+
+    private String Name;
+    private int Age;
+    private String Phone;
+    private String Address;
+    private int Math,Sci,Eng,History,PE;
+
+
+// Setter for The data
+    public void setName(String Name) {
+        this.Name = Name;
+    }
+    public void setAge(int age) {
+        this.Age = age;
+    }
+    public void setPhone(String phone) {
+        this.Phone = phone;
+    }
+    public void setAddress(String address) {
+        this.Address = address;
+    }
+    //Setters for Grades
+    public void setMath(int math){
+        this.Math=math;
+    }
+    public void setSci(int sci){
+        this.Sci=sci;
+    }
+    public void setEng(int eng){
+        this.Eng=eng;
+    }
+    public void setHistory(int history){
+        this.History=history;
+    }
+    public void setPE(int pe){
+        this.PE=pe;
+    }
+
+    //getters for the data
+
+    public String getName(){
+        return this.Name;
+    }
+    public String getPhone(){
+        return this.Phone;
+    }
+    public String getAddress(){
+        return this.Address;
+    }
+    public int getAge(){
+        return this.Age;
+    }
+    // getters for Grades
+
+    public int getMath(){
+        return this.Math;
+    }
+    public int getSci(){
+        return this.Sci;
+    }
+    public int getEng(){
+        return this.Eng;
+    }
+    public int getHistory(){
+        return this.History;
+    }
+    public int getPE(){
+        return this.PE;
+    }
+
+
+
+
+
+
+
+}
