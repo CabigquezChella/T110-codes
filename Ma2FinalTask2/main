@@ -1,0 +1,21 @@
+package package1;
+import package2.subclass;
+
+import java.util.*;
+public class Main {
+
+
+
+    public static void main(String[] args) {
+      Scanner sc=new Scanner(System.in);
+      subclass newClass=new subclass();
+        System.out.println("\t----Area Of Geometry Shapes----");
+        System.out.println("[1]Triangles\n[2]Rectangle\n[3]Parallelogram\n[4]Circle");
+        System.out.println("Choice:");
+        newClass.setChoices(sc.nextInt());
+
+
+
+
+    }
+}
