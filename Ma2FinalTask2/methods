@@ -1,0 +1,62 @@
+package package3;
+import java.util.*;
+public class methods {
+ Scanner scan=new Scanner(System.in);
+
+    public void Triangle(){
+
+        int base,height;
+        double result=0;
+        System.out.println("\t\t[Solving Area of a Triangle]");
+        System.out.print("Base:");
+        base=scan.nextInt();
+        System.out.print("Height:");
+        height=scan.nextInt();
+
+        result= 0.5/base*height;
+        result=result;
+        System.out.println("The Area Of Triangle is "+result);
+    }
+    public void Rectangle(){
+        int Lenght,width;
+        int result;
+        System.out.println("\t\t[Solving Area of a Rectangle]");
+        System.out.print("Lenght:");
+        Lenght= scan.nextInt();
+        System.out.print("Width:");
+        width=scan.nextInt();
+
+        result= Lenght*width;
+        result=result;
+        System.out.println("The Area of a Rectangle is "+result);
+
+    }
+    public void Parallelogram(){
+        int base,height;
+        int result;
+        System.out.println("\t\t[Solving Area of a Parallelogram]");
+        System.out.print("Base:");
+        base= scan.nextInt();
+        System.out.print("Height:");
+        height=scan.nextInt();
+
+        result= base*height;
+        result=result;
+        System.out.println("The Area of a Parallelogram is "+result);
+
+    }
+    public void Circle(){
+        int Radius;
+        double result;
+        System.out.println("\t\t[Solving Area of a Circle]");
+
+        System.out.print("Radius:");
+        Radius=scan.nextInt();
+
+        result= 3.14*(Radius^2);
+        result=result;
+        System.out.println("The Area of a Circle is "+result);
+
+    }
+
+}
